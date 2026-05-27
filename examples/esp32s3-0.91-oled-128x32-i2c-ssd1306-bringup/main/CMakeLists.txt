@@ -1,0 +1,10 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "ssd1306.c"
+        "spectrum_viz.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        esp_driver_i2c
+)
