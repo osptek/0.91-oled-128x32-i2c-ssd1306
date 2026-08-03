@@ -13,6 +13,8 @@
   <img alt="Driver: SSD1306" src="https://img.shields.io/badge/Driver-SSD1306-E7352C?style=flat-square" />
 </p>
 
+<p align="center"><img alt="OSPTEK 0.91&quot; OLED 128×32 module (SSD1306) product image" src="./images/product.png" width="640" /></p>
+
 ## Contents
 
 - [Overview](#overview)
