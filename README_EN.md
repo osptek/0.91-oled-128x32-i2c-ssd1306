@@ -100,6 +100,7 @@ Current module version: **ODM091-12832B102-P4**. Electrical and mechanical detai
 - Technical support / product inquiry: <luyu@osptek.com>
 - QQ group (China): **985881096**
 - Website: <https://osptek.com/>
+- For questions or problems, you can also open a GitHub [Issue](https://github.com/osptek/0.91-oled-128x32-i2c-ssd1306/issues)
 
 ---
 
