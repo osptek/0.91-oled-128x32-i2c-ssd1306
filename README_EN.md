@@ -46,6 +46,8 @@ Repo id: `0.91-oled-128x32-i2c-ssd1306`
 
 <p align="center"><img alt="ODM091-12832B102-P4" src="./images/ODM091-12832B102-P4.png" width="320" /></p>
 
+**Notes:** Module.
+
 ---
 
 ## How to Switch Branches
