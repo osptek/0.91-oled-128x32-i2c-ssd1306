@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 0.91″ OLED 128×32（SSD1306 · I2C）</h1>
 
-<p align="center"><b>单色 OLED 模组 · I2C · 小尺寸状态显示</b></p>
+<p align="center"><b>OLED 模组 · I2C · SSD1306 · 多版本索引</b></p>
 
 <p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
 
@@ -13,78 +13,58 @@
   <img alt="Driver: SSD1306" src="https://img.shields.io/badge/Driver-SSD1306-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 0.91 寸 OLED 128×32 模组（SSD1306）产品图" src="./images/product.png" width="640" /></p>
-
 ## 目录
 
-- [产品简介](#产品简介)
-- [规格参数](#规格参数)
-- [示例工程](#示例工程)
-- [仓库结构](#仓库结构)
-- [相关资料](#相关资料)
+- [说明](#说明)
+- [版本一览](#版本一览)
+- [ODM091-12832B102-P4](#odm091-12832b102-p4)
+- [如何切换分支](#如何切换分支)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
 ---
 
-## 产品简介
+## 说明
 
-OSPTEK **0.91 寸 128×32 OLED** 是一款 **I2C** 单色显示模组，驱动芯片为 **SSD1306**。体积小、接线少，适合状态栏、菜单提示、调试信息等低信息密度显示场景。
+本仓库收录 **0.91 寸 128×32 OLED（I2C · SSD1306）** 显示模组资料。
+
+**`main` 为导航页**（仓库默认分支）。下表可快速浏览各版本；点击「说明」跳转到本页下方的详细介绍。需要某一版本的完整内容时，请切换到对应**版本分支**（方法见下文）。
 
 规格标识（仓库名）：`0.91-oled-128x32-i2c-ssd1306`
 
-当前模组版本：**ODM091-12832B102-P4**。电气与外形细节以 [`docs/ODM091-12832B102-P4.pdf`](./docs/ODM091-12832B102-P4.pdf) 为准。
+---
 
-## 规格参数
+## 版本一览
 
-| 项目 | 规格 |
-| ---- | ---- |
-| 尺寸 | 0.91 英寸 |
-| 类型 | OLED（单色） |
-| 分辨率 | 128×32 |
-| 接口 | I2C |
-| 驱动 IC | SSD1306 |
+| 版本 | 宣传图 | 说明 |
+| ---- | ------ | ---- |
+| ODM091-12832B102-P4 | <img alt="ODM091-12832B102-P4" src="./images/ODM091-12832B102-P4.png" width="120" /> | [查看详情](#odm091-12832b102-p4) |
 
-> 完整外形尺寸、引脚定义、供电与电气特性以产品规格书 / 驱动手册为准。
+---
 
-## 示例工程
+## ODM091-12832B102-P4
 
-| 说明 | 路径 |
-| ---- | ---- |
-| ESP32-S3 · SSD1306 I2C bringup（频谱可视化） | [`examples/esp32s3-0.91-oled-128x32-i2c-ssd1306-bringup/`](./examples/esp32s3-0.91-oled-128x32-i2c-ssd1306-bringup/) |
+<p align="center"><img alt="ODM091-12832B102-P4" src="./images/ODM091-12832B102-P4.png" width="320" /></p>
 
-## 仓库结构
+**说明：** 模组。
 
-```text
-0.91-oled-128x32-i2c-ssd1306/
-├── README.md
-├── README_EN.md
-├── MODULE_VERSION.md
-├── LICENSE
-├── images/          # README 用图
-├── docs/            # 规格书、驱动手册等
-└── examples/        # 示例工程
-```
+---
 
-## 相关资料
+## 如何切换分支
 
-### 本产品资料
+完整产品资料在各**版本分支**中；`main` 仅作导航。
 
-| 资料 | 链接 |
-| ---- | ---- |
-| 产品规格书（ODM091-12832B102-P4） | [`docs/ODM091-12832B102-P4.pdf`](./docs/ODM091-12832B102-P4.pdf) |
-| 驱动 IC 数据手册（SSD1306） | [`docs/SSD_1306_1_5_e7033cb611.pdf`](./docs/SSD_1306_1_5_e7033cb611.pdf) |
+- **网页：** 在仓库页左上角打开分支下拉框，选择与料号对应的版本分支即可。
+- **命令行：** 克隆本仓库后执行 `git checkout <版本分支名>`；若本地已有仓库，先 `git fetch` 再切换。
 
-### 示例工程
-
-- [ESP32-S3 SSD1306 I2C bringup](./examples/esp32s3-0.91-oled-128x32-i2c-ssd1306-bringup/)
+---
 
 ## 购买链接
 
 <p align="center">
   <a href="https://shop110742373.taobao.com/"><img alt="淘宝官方店铺" src="https://img.shields.io/badge/淘宝-官方店铺-FF6A00?style=for-the-badge" /></a>
   &nbsp;&nbsp;
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="速卖通官方店铺" src="https://img.shields.io/badge/速卖通-官方店铺-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="速卖通官方店铺" src="https://img.shields.io/badge/速卖通-官方店铺-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
 </p>
 
 **国内（淘宝）**
@@ -94,6 +74,8 @@ OSPTEK **0.91 寸 128×32 OLED** 是一款 **I2C** 单色显示模组，驱动�
 **海外（AliExpress）**
 
 - 店铺：[OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
+
+---
 
 ## 技术支持
 
